@@ -2,3 +2,39 @@ body {
     background-color: rgb(191, 255, 113);
     color: white;
 }
+
+td {
+    border: 2px solid black;
+}
+
+th {
+    border: 3px solid black;
+}
+
+h3 {
+    color: rgb(210, 106, 106);
+}
+
+p {
+    background-color: rgb(58, 191, 221);
+}
+
+a {
+    background-color: rgb(181, 83, 83);
+}
+
+div {
+    background-color: yellow;
+}
+
+span {
+    background-color: blue;
+}
+
+.red {
+    background-color: chocolate;
+}
+
+#second {
+    background-color: chartreuse;
+}

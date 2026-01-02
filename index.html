@@ -14,8 +14,132 @@
     <br><br>
     <img src="\pexels-mdsnmdsnmdsn-1684880.jpg" alt="Sample Image" width="100">
 
-    <video src="\5532765-uhd_2160_4096_25fps.mp4" controls width="100" autoplay></video>
+    <video src="\5532765-uhd_2160_4096_25fps.mp4" controls width="180" autoplay loop muted
+        poster="\pexels-mdsnmdsnmdsn-1684880.jpg"></video>
     <script src="script.js"></script>
+    <br><br><br>
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>SNo.</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chetan Ishwar Phad</td>
+                <td rowspan="2">9999999999</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Varsha Ishwar Phad</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td colspan="2">Vaibhav Balu sandbhor</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Suyash Jagdish Patil</td>
+                <td>7777777777</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>5</td>
+                <td>Aditya Shankar Parab</td>
+                <td>6666666666</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br><br>
+    <h3>list topic</h3>
+
+    <p>Unordered List using ul and li tag</p>
+    <!-- Disk is by difalt -->
+    <ul type="disk">
+        <li type="square">Chetan</li>
+        <li type="circle">Suyash</li>
+        <li>Vaibhav</li>
+        <li>Aditya</li>
+        <li>Pranay</li>
+    </ul>
+    <br>
+
+    <p>Ordered List using ol and li tag</p>
+    <ol>
+        <li type="I">Chetan</li>
+        <li type="i">Suyash</li>
+        <li type="A">Vaibhav</li>
+        <li type="a">Aditya</li>
+        <li type="1">Pranay</li>
+        <!-- 1 is by default -->
+    </ol>
+    <br>
+    <p>Defination List using dl,dt and dd tag</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+    </dl>
+    <br><br><br>
+
+    <h3>Form</h3>
+    <form action="post">
+        <div>
+            <label for="username">Username :</label>
+            <input type="text" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="comment">Enter your thought below :</label>
+            <br>
+            <textarea name="comment" rows="4" cols="50" placeholder="Enter your comment here...."></textarea>
+        </div>
+        <div>
+            <label for="fruits">Choose your favourate fruite :</label>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+    </form>
+
+    <h3>CSS - Inline and Block element</h3>
+    <p>Hey, I am a paragraph tag</p>
+    <a href="https:\\www.google.com">Google</a>
+    <div>I am a block element i take all width</div>
+    <span>I am a inline element i take required with not all</span>
+
+    <h3>ID and Classes</h3>
+
+    <p>ID is always specific for every element you want to do two element don't have same id but classes could be same a
+        single element could have many classes also the two element have same classes</p>
+    <div id="first" class="red">first</div>
+    <div id="second">second</div>
+    <span class="red bg green">third</span>
+    <!-- many classes represent above by spaces between them as you see red bg green they are three classes to single element -->
+
+    <h3>Audio Video Advanced</h3>
+    <!-- go to the first area where our journey start -->
+    <audio src="" autoplay loop controls muted preload="auto"></audio>
+    <svg>
+        <circle cx="50" cy="50" stroke="black" stroke-width="2" r="40" fill="red" />
+    </svg>
+    <img src="image.svg" alt="Sample Svg">
+    <iframe src="https://www.codewithharry.com/tutorial/html-audio-video-tags" height="400" width="300"></iframe>
+
+
 </body>
 
 </html>
